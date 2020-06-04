@@ -6,7 +6,7 @@ Interrupt based Arduino library for reading PPM signals. Developed for use with 
 
 1. Download and extract the files. 
 2. Rename the directory to ```ppmHandler```. 
-3. Make sure the files above are in the first level of ```ppmHandler```. 
+3. Make sure the files above are in the top level of ```ppmHandler```. 
 4. Move ```ppmHandler``` to ```{your path}/Arduino/libraries```.
 5. Restart Arduino IDE. ```Sketch > Include Library``` ppmHandler should be listed under contributed libraries 
 
