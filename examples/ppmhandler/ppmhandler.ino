@@ -31,17 +31,12 @@ void loop()
     
     // Use to handler.get(channel number) to get the pulse width a ppm channel. 
     // The channel numbers are integers 1 - 6
-    Serial.print(ppm.get(1));
-    Serial.print(' ');
-    Serial.print(ppm.get(2));
-    Serial.print(' ');
-    Serial.print(ppm.get(3));
-    Serial.print(' ');
-    Serial.print(ppm.get(4));
-    Serial.print(' ');
-    Serial.print(ppm.get(5));
-    Serial.print(' ');
-    Serial.println(ppm.get(6));
+    for (int i = 1; i <= 6; ++i)
+    {
+        Serial.print(ppm.get(i));
+        Serial.print(' ');
+    }
+    Serial.println();
 
     delay(1000);
 }
