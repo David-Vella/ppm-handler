@@ -1,6 +1,6 @@
 # About
 
-Interrupt based Arduino library for reading PPM signals. Developed for use with the OrangeRx R617XL radio frequency receiver. Tested extensively with the Arduino Nano. Should work with other ATmega328 based boards.
+Interrupt based Arduino library for reading PPM signals. Developed for use with the OrangeRx R617XL radio frequency receiver. Tested extensively with the Arduino Nano.
 
 # Installation
 
@@ -55,4 +55,4 @@ void loop()
 
 # Configuration
 
-By default the handler is configured to read ppm signals with 6 channels. Additionally the handler constrains the output of the get(). These settings can be adjusted by the macro definitions at the top of ```ppmhandler.h```.
+By default the handler is configured to read ppm signals with 6 channels. Additionally the handler constrains the return value of get(). These settings can be adjusted by the macro definitions at the top of ```ppmhandler.h```.
